@@ -20,17 +20,19 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: '',
+  url: 'https://manikandanx0.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Arcana/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'manikandanx0', // Usually your GitHub org/user name.
-  projectName: 'arcana', // Usually your repo name.
+  projectName: 'Arcana', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  deploymentBranch: 'gh-pages', // where the built site goes
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -61,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/manikandanx0/Arcana',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
