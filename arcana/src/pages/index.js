@@ -32,11 +32,33 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      title="Arcana"
+      description="A personal, structured knowledge base for continuous learning."
+    >
+      <main className="container margin-vert--xl">
+        <div className="row">
+          <div className="col col--8 col--offset-2">
+            <h1>Arcana</h1>
+            <p className="hero__subtitle">
+              A structured knowledge base for problem-solving, machine learning, and language learning.
+            </p>
+
+            <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
+              <Link
+                className="button button--primary button--lg"
+                to="/docs/intro"
+              >
+                Explore Docs
+              </Link>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/leetcode/intro"
+              >
+                LeetCode
+              </Link>
+            </div>
+          </div>
+        </div>
       </main>
     </Layout>
   );
